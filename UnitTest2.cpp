@@ -46,5 +46,6 @@ namespace UnitTest2
 			CountingSort(arrcountsort, 10);
 			Assert::IsTrue(arrcountsort[0] == 'a', L"Assert 1");
 			Assert::IsTrue(arrcountsort[9] == 'z', L"Assert 2");
+		}
 	};
 }
